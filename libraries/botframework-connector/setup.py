@@ -8,7 +8,7 @@ NAME = "botframework-connector"
 VERSION = os.environ["packageVersion"] if "packageVersion" in os.environ else "4.15.0"
 REQUIRES = [
     "msrest==0.6.10",
-    "requests>=2.23.0,<2.26",
+    "requests>=2.23.0,<3",
     "PyJWT>=1.5.3,<2.0.0",
     "botbuilder-schema==4.15.0",
     "msal==1.6.0",
